@@ -1,0 +1,196 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* heading css */
+
+.navbar
+{
+    height: 80px;
+    width: 100%;
+}
+
+.navbar h1
+{
+    font-size: 40px;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 5px 0px 0px 40px;
+}
+
+.menu
+{
+    height: 30px;
+    width: 100%;
+}
+
+.menu .list
+{
+    height: 30px;
+    width: 90%;
+    margin: 0px 0px 0px 40px;
+}
+
+.list ul
+{
+    display: flex;
+    padding-left: 8px;
+}
+
+.list ul li
+{
+   list-style: none;
+   padding-right: 8%;
+   padding-top: 10px;
+}
+
+.list ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.list li a::after
+{
+    content: '';
+    display: block;
+    padding-top: 4px;
+    border-bottom: 2px solid rgb(64, 69, 193);
+    width: 0%;
+    margin: auto;
+    transition: 0.2s;
+}
+
+.list li a:hover::after
+{
+    color: rgb(54, 55, 81);
+    width: 100%;
+}
+
+/* images */
+
+.row1
+{
+    display: flex;
+    height: 200px;
+    width: 94%;
+    margin: 5% auto;
+    justify-content: space-between;
+}
+
+.pic1
+{
+    height: 300px;
+    width: 25%;
+    padding-right: 10px;
+}
+
+.pic1 img
+{
+    width: 100%;
+    height: 300px;
+}
+
+.pic2
+{
+    height: 300px;
+    width: 25%;
+    padding-right: 10px;
+}
+
+.pic2 img
+{
+    width: 100%;
+    height: 300px;
+}
+
+.pic3
+{
+    height: 300px;
+    width: 25%;
+    padding-right: 10px;
+}
+
+.pic3 img
+{
+    width: 100%;
+    height: 300px;
+}
+
+.pic4
+{
+    height: 300px;
+    width: 25%;
+    padding-right: 10px;
+}
+
+.pic4 img
+{
+    width: 100%;
+    height: 300px;
+}
+
+.pic5
+{
+    height: 300px;
+    width: 25%;
+    padding-right: 10px;
+}
+
+.pic5 img
+{
+    width: 100%;
+    height: 300px;
+}
+
+.pic6
+{
+    height: 300px;
+    width: 25%;
+    padding-right: 10px;
+}
+
+.pic6 img
+{
+    width: 100%;
+    height: 300px;
+}
+
+.pic7
+{
+    height: 300px;
+    width: 25%;
+    padding-right: 10px;
+}
+
+.pic7 img
+{
+    width: 100%;
+    height: 300px;
+}
+
+.pic8
+{
+    height: 300px;
+    width: 25%;
+    padding-right: 10px;
+}
+
+.pic8 img
+{
+    width: 100%;
+    height: 300px;
+}
+
+.row2
+{
+    display: flex;
+    height: 200px;
+    width: 94%;
+    margin: 9% auto;
+    justify-content: space-between;
+}
