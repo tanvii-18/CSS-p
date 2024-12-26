@@ -1,0 +1,1026 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgb(3, 3, 3);
+}
+
+.navbar
+{
+    height: 120px;
+    width: 100%;
+    background-color: #101010 ;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navContainer
+{
+    height: 120px;
+    width: 96%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* logo */
+.navContainer .logo
+{
+    height: 50px;
+    width: 20%;
+    margin: 30px 0px;
+    display: flex;
+}
+
+.logo h1
+{
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+    font-size: 32px;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 25px;
+}
+
+.logo h2
+{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* navmenu */
+.navmenu
+{
+    height: 80px;
+    width: 60%;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navmenu .list
+{
+    height: 80px;
+    width: 30%;
+}
+
+.list ul
+{
+    display: flex;
+}
+
+.list ul li
+{
+    list-style: none;
+    padding-right: 30px;
+    line-height: 60px;
+}
+
+.list ul li a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+    font-size: 14px;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+}
+
+/* search bar */
+
+.searchbar
+{
+    height: 50px;
+    width: 25%;
+    border-bottom: 1px solid white;
+}
+
+.searchbar input
+{
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    margin-top: 18px;
+    padding-left: 10px;
+}
+
+.searchbar i
+{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    opacity: 0.6; 
+}
+
+.searchbar:hover
+{
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+/* navicon */
+.navicon
+{
+    height: 40px;
+    width: 20%;
+    display: flex;
+    margin: 18px 0px;
+}
+
+.navicon i
+{
+    font-size: 25px;
+    padding-right: 20px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    opacity: 0.6; 
+}
+
+.navicon h3
+{
+    font-size: 16px;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    opacity: 0.6; 
+    padding-left: 5px;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+}
+
+/* socials */
+
+.social
+{
+    height: 190px;
+    width: 100px;
+    background:rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    position: fixed;
+    z-index: 1000;
+}
+
+.social .facebook i
+{
+    color: white;
+    font-size: 35px;
+    position: relative;
+    left: 38%;
+    padding-bottom: 40px;
+}
+
+.social .youtube i
+{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 40%;
+    padding-bottom: 40px;
+}
+
+.social .insta i
+{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 40%;
+}
+
+/* poster img */
+
+.poster
+{
+    height: 800px;
+    width: 100%;
+}
+
+.posterimg
+{
+    height: 800px;
+    width: 100%;
+}
+
+.posterimg img
+{
+    height: 800px;
+    width: 100%;
+}
+
+.postertext
+{
+    height: 100px;
+    width: 60%;
+    position: relative;
+    bottom: 55%;
+    left: 25%;
+}
+
+.postertext p
+{
+    font-size: 75px;
+    color: white;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.shopNow
+{
+    position: relative;
+    bottom: 50%;
+    left: 42%;
+    width: 30%;
+}
+
+.shopNow:hover input
+{
+    background-color: white;
+    color: black;
+}
+
+.shopNow input
+{
+    color: white;
+    height: 60px;
+    width: 50%;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+    font-weight: 500;
+    transition: 0.7s;
+}
+
+.shopNow i
+{
+    font-size: 60px;
+    color: white;
+    margin: 0px 0px 0px 60px;
+}
+
+/* new arrival beg */
+
+.mainbox
+{
+    height: 680px;
+    width: 100%;
+}
+
+.boxcontainer
+{
+    height: 680px;
+    width: 100%; 
+    display: flex;
+}
+
+.box1
+{
+    height: 680px;
+    width: 50%;
+}
+
+.box1 h1
+{
+    color: white;
+    text-align: center;
+    font-size: 54px;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    letter-spacing: 5px;
+    position: relative;
+    top: 38%;
+}
+
+.box1 input
+{
+    color: white;
+    height: 58px;
+    width: 34%;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+    font-weight: 500;
+    transition: 0.7s;
+    position: relative;
+    top: 40%;
+    margin-left: 32%;
+}
+
+input:hover 
+{
+    color:black;
+    background-color: white;
+}
+
+
+.box2
+{
+    height: 680px;
+    width: 50%;
+}
+
+.box2 img
+{
+    height: 680px;
+    width: 100%;
+}
+
+   /* 3 images */
+
+   .maincontainer
+   {
+    height: 500px;
+    width: 100%;
+   }
+
+   .imgGallery
+   {
+       height: 450px;
+       width: 100%;
+       display: flex;
+   }
+   
+   .pic1
+   {
+       width: 34%;
+       height: 450px;
+       overflow: hidden;
+       display: flex;
+   }
+   
+   .pic1 img
+   {
+       width: 100%;
+       height: 450px;
+       transition: 0.8s;
+   }
+   
+   .pic1 .content
+   {
+       width: 33.3%;
+       height: 450px;
+       background: rgba(0, 0, 0, 0.5);
+       overflow: hidden;
+       opacity: 0;
+       position: absolute;
+   }
+   
+   .content h3
+   {
+        margin: 50% 0px 0px 28%;
+       color: white;
+       font-size: 25px;
+       font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+       font-style: normal
+   }
+   
+   .pic1:hover .content
+   {
+       opacity: 1;
+   }
+   
+   .pic1:hover img
+   {
+       transform: scale(1.2);
+   }
+   
+   .pic2
+   {
+       width: 34%;
+       height: 450px;
+       overflow: hidden;
+       display: flex;
+   }
+   
+   .pic2 img
+   {
+       width: 100%;
+       height: 450px;
+       transition: 0.8s;
+   }
+   
+   .pic2 .content2
+   {
+       width: 33.3%;
+       height: 450px;
+       background: rgba(0, 0, 0, 0.5);
+       overflow: hidden;
+       opacity: 0;
+       position: absolute;
+   }
+   
+   .content2 h3
+   {
+       margin: 50% 0px 0px 28%;
+       color: white;
+       font-size: 25px;
+       font-family: "Playfair Display", serif;
+       font-optical-sizing: auto;
+       font-weight: 100;
+       font-style: normal
+   }
+   
+   .pic2:hover .content2
+   {
+       opacity: 1;
+   }
+   
+   .pic2:hover img
+   {
+       transform: scale(1.2);
+   }
+   
+   .pic3
+   {
+       width: 34%;
+       height: 450px;
+       overflow: hidden;
+       display: flex;
+   }
+   
+   .pic3 img
+   {
+       width: 100%;
+       height: 450px;
+       transition: 0.8s;
+   }
+   
+   
+   .pic3 .content3
+   {
+       width: 33.3%;
+       height: 450px;
+       background: rgba(0, 0, 0, 0.5);
+       overflow: hidden;
+       opacity: 0;
+       position: absolute;
+   }
+   
+   .content3 h3
+   {
+       margin: 50% 0px 0px 28%;
+       color: white;
+       font-size: 25px;
+       font-family: "Playfair Display", serif;
+       font-optical-sizing: auto;
+       font-weight: 100;
+       font-style: normal
+   }
+   
+   .pic3:hover .content3
+   {
+       opacity: 1;
+   }
+   
+   .pic3:hover img
+   {
+       transform: scale(1.2);
+   }
+
+
+    /* sale product poster */
+
+    .bagPoster
+    {
+        height: 740px;
+        width: 100%;
+    }
+    
+    .text
+    {
+        height: 300px;
+        width: 100%;
+        margin-top: 5%;
+    }
+    
+    .text h1
+    {
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 450;
+        font-style: normal;
+        font-size: 52px;
+        letter-spacing: 5px;
+        color: white;
+        text-align: center;
+        padding-top: 0px;
+    }
+    
+    .text h3
+    {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 26px;
+        font-weight: 500;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .mainbox1
+    {
+        height: 400px;
+        width: 100%;
+    }
+
+    .imgContainer
+    {
+        height: 450px;
+        width: 80%;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .bag1
+    {
+        height: 300px;
+        width: 33%;
+    }
+    
+    .bag1 img
+    {
+        width: 100%;
+    }
+    
+    .bag1 h2
+    {
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        letter-spacing: 1px;
+    }
+    
+    .bag1 h3
+    {
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        padding: 10px 0px;
+    }
+    
+    .bag2
+    {
+        height: 300px;
+        width: 33%;
+    }
+    
+    .bag2 img
+    {
+        width: 100%;
+    }
+    
+    .bag2 h2
+    {
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        letter-spacing: 1px;
+    }
+    
+    .bag2 h3
+    {
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        padding-top: 20px;
+    }
+    
+    .bag3
+    {
+        height: 300px;
+        width: 33%;
+    }
+    
+    .bag3 img
+    {
+        width: 100%;
+    }
+    
+    .bag3 h2
+    {
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        letter-spacing: 1px;
+    }
+    
+    .bag3 h3
+    {
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        padding-top: 20px;
+    }
+    
+    /* ABOUT US */
+
+    .aboutUs
+    {
+        height: 600px;
+        width: 100%;
+        margin-top: 10%;
+    }
+    
+    .abtContainer
+    {
+        height: 600px;
+        width: 100%;
+        display: flex;
+        float: left;
+    }
+
+    .aboutInfo
+    {
+        background:rgba(0, 0, 0, 0.6);
+        width: 50%;
+        height: 600px;
+        position: absolute;
+    }
+    
+    .aboutInfo h1
+    {
+        color: white;
+        font-size: 50px;
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 5px;
+        word-spacing: 3px;
+        margin-top: 25%;
+        margin-left: 18%;
+        padding-bottom: 5%;
+    }
+    
+    
+    .aboutInfo p
+    {
+        color: white;
+        font-size: 20px;
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 2px;
+        text-align: start;
+        margin-left: 18%;
+    }
+    
+    .abtContainer img
+    {
+        width: 100%;
+    }
+    
+        /* contact */
+    
+    .contact
+    {
+        height: 720px;
+        width: 100%;
+        display: flex;
+}
+    
+    .contactForm
+    {
+        height: 550px;
+        width: 35%;
+        margin: 15% 0px 50px 130px;
+    }
+    
+    .firstName label 
+    {
+        color: white;
+        font-size: 20px;
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .firstName input
+    {
+        height: 40px;
+        width: 70%;
+        border: 1px solid white;
+        background: transparent;
+    }
+    
+    .lastName label
+    {
+        color: white;
+        font-size: 20px;
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .lastName input
+    {
+        height: 40px;
+        width: 70%;
+        border: 1px solid white;
+        background: transparent;
+    }
+    
+    .contactForm .email label
+    {
+        color: white;
+        font-size: 20px;
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .contactForm .email input
+    {
+        height: 40px;
+        width: 70%;
+        border: 1px solid white;
+        background: transparent;
+    }
+    
+    .sub label
+    {
+        color: white;
+        font-size: 20px;
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .sub input
+    {
+        height: 40px;
+        width: 70%;
+        border: 1px solid white;
+        background: transparent;
+    }
+    
+    .message label
+    {
+        color: white;
+        font-size: 20px;
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .message input
+    {
+        height: 80px;
+        width: 70%;
+        border: 1px solid white;
+        background: transparent;
+    }
+    
+    .send input
+    {
+        color: white;
+        height: 50px;
+        width: 24%;
+        color: white;
+        background-color: transparent;
+        border: 2px solid white;
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 45%;
+    }
+    
+    
+    .contactInfo
+    {
+        width: 40%;
+        height: 450px;
+        margin: 15% 0px 50px 100px;
+    }
+    
+    .contactInfo h1
+    {
+        color: white;
+        font-size: 55px;
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 5px;
+        word-spacing: 3px;
+    }
+    
+    .contactInfo p
+    {
+        color: white;
+        font-size: 18px;
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 1px;
+        text-align: start;
+    }
+    
+    /* mail list */
+    
+    .mailList
+    {
+        height: 400px;
+        width: 100%;
+        background-color: #141414;
+        margin-top: 10%;
+    }
+    
+    .mailList h1
+    {
+        font-size: 55px;
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        text-align: center;
+        padding-top: 35px ;
+        letter-spacing: 1px;
+    }
+    
+    .mailList h3
+    {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 24px;
+        color: white;
+        text-align: center;
+        letter-spacing: 1px;
+        padding-top: 10px;
+    }
+    
+    .mailList .email label
+    {
+        color: white;
+        font-size: 20px;
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        position: relative;
+        left: 30%;
+    }
+    
+    .mailList .email .emailtext
+    {
+        height: 40px;
+        width: 40%;
+        border: 1px solid white;
+        background: transparent;
+        position: relative;
+        left: 30%;
+    }
+    
+    .mailList .box
+    {
+        height: 20px;
+        width: 20px;
+        background: transparent;
+        border: 1px solid white;
+        position: relative;
+        left: 30%;
+    }
+    
+    .mailList p
+    {
+        background: transparent;
+        color: white;
+        width: 20%;
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        letter-spacing: 1px;
+        position: relative;
+        left: 30%;
+    }
+    
+    .subscribe input
+    {
+        color: white;
+        height: 50px;
+        width: 40%;
+        color: white;
+        background-color: transparent;
+        border: 2px solid white;
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        position: relative;
+        left: 30%;
+    }
+    
+    /* footer */
+    
+    .footer
+    {
+        height: 150px;
+        width: 100%;
+        background-color: #1A1919;
+        display: flex;
+    }
+    
+    .footer h2
+    {
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        color: #A29C9C;
+        margin: 62px 0px 0px 150px;
+        letter-spacing: 1px;
+    }
+    
+    .footer ul
+    {
+        margin: 66px 0px 0px 150px;
+        letter-spacing: 1px;
+        display: flex;
+    }
+    
+    .footer li
+    {
+        list-style: none;
+        padding-left: 25px;
+    }
+    
+    .footer li a
+    {
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        color: #A29C9C;
+    }
+    

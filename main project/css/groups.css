@@ -1,0 +1,469 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgb(3, 3, 3);
+}
+.navbar
+{
+    height: 120px;
+    width: 100%;
+    background-color: #101010 ;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navContainer
+{
+    height: 120px;
+    width: 96%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* logo */
+.navContainer .logo
+{
+    height: 50px;
+    width: 20%;
+    margin: 30px 0px;
+    display: flex;
+}
+
+.logo h1
+{
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+    font-size: 32px;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 25px;
+}
+
+.logo h2
+{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* navmenu */
+.navmenu
+{
+    height: 80px;
+    width: 60%;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navmenu .list
+{
+    height: 80px;
+    width: 30%;
+}
+
+.list ul
+{
+    display: flex;
+}
+
+.list ul li
+{
+    list-style: none;
+    padding-right: 30px;
+    line-height: 60px;
+}
+
+.list ul li a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+    font-size: 14px;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+}
+
+/* search bar */
+
+.searchbar
+{
+    height: 50px;
+    width: 25%;
+    border-bottom: 1px solid white;
+}
+
+.searchbar input
+{
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    margin-top: 18px;
+    padding-left: 10px;
+}
+
+.searchbar i
+{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    opacity: 0.6; 
+}
+
+.searchbar:hover
+{
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+/* navicon */
+.navicon
+{
+    height: 40px;
+    width: 20%;
+    display: flex;
+    margin: 18px 0px;
+}
+
+.navicon i
+{
+    font-size: 25px;
+    padding-right: 20px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    opacity: 0.6; 
+}
+
+.navicon h3
+{
+    font-size: 16px;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    opacity: 0.6; 
+    padding-left: 5px;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+}
+
+/* socials */
+
+.social
+{
+    height: 190px;
+    width: 100px;
+    background:rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    position: fixed;
+    z-index: 1000;
+}
+
+.social .facebook i
+{
+    color: white;
+    font-size: 35px;
+    position: relative;
+    left: 38%;
+    padding-bottom: 40px;
+}
+
+.social .youtube i
+{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 40%;
+    padding-bottom: 40px;
+}
+
+.social .insta i
+{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 40%;
+}
+
+
+/* HEADING  */
+
+.heading
+{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+.heading h1
+{
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+    font-size: 55px;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 5px;
+}
+
+.heading h2
+{
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 5px;
+    word-spacing: 3px;
+}
+
+.heading h3
+{
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 5px;
+    word-spacing: 3px;
+}
+
+/* groups feed */
+
+.groupsFeed
+{
+    height: 500px ;
+    width: 75%;
+    margin: 6% auto;
+}
+
+.groupsFeed h1
+{
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 30px;
+    position: relative;
+}
+
+.groupsFeed p
+{
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    position: relative;
+    display: flex;
+}
+
+.box
+{
+    display: flex;
+    height: 500px ;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 30px 0px 0px 0px;
+}
+
+ .box .box1
+{
+    height: 400px;
+    width: 70%;
+    border: 1px solid rgb(83, 82, 82);
+    margin-right: 10px;
+}
+
+.box1 h1
+{
+    text-align: center;
+    margin-top: 25%;
+    font-size: 20px;
+}
+
+.box1 p
+{
+    font-size: 14px;
+    margin: 0px 10% 0px 22%;
+}
+
+.box .box2
+{
+    height: 400px;
+    width: 35%;
+    border: 1px solid rgb(83, 82, 82);
+} 
+
+.searchbox
+{
+    height: 60px;
+    width: 100%;
+    padding: 3% 5% 0px 0px;
+}
+
+.searchbox i
+{
+    position: relative;
+    color: white;
+    top: 2px;
+    left: 30px;
+    font-size: 20px;
+}
+
+.searchbox input
+{
+    border: 1px solid gray;
+    height: 40px;
+    width: 90%;
+    font-size: 14px;
+    color: white;
+    padding-left: 40px;
+    background: transparent;
+}
+
+.box2 h2
+{
+    color: white;
+    font-size: 28px;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    left: 7%;
+}
+
+.image
+{
+    height: 250px;
+    width: 100%;
+    margin: 20px 0px;
+    padding: 3% 0px;
+}
+
+.g1
+{
+    height: 50px;
+    width: 100%;
+    margin: 20px 0px;
+    display: flex;
+}
+
+.imgcont
+{
+    height: 50px;
+    width: 50px;
+    margin: 0px 15px;
+}
+
+.imgcont img
+{
+    width: 100%;
+}
+
+.text 
+{
+    height: 50px;
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.text h1
+{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.g2
+{
+    height: 50px;
+    width: 100%;
+    margin: 20px 0px;
+    display: flex;
+}
+
+.g3
+{
+    height: 50px;
+    width: 100%;
+    margin: 20px 0px;
+    display: flex;
+}
+/* footer */
+    
+.footer
+{
+    height: 150px;
+    width: 100%;
+    background-color: #1A1919;
+    display: flex;
+}
+
+.footer h2
+{
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #A29C9C;
+    margin: 62px 0px 0px 150px;
+    letter-spacing: 1px;
+}
+
+.footer ul
+{
+    margin: 66px 0px 0px 150px;
+    letter-spacing: 1px;
+    display: flex;
+}
+
+.footer li
+{
+    list-style: none;
+    padding-left: 25px;
+}
+
+.footer li a
+{
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #A29C9C;
+}
+

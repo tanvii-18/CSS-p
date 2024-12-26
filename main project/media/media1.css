@@ -1,0 +1,730 @@
+@media (min-width:0px) and (max-width: 480px) {
+
+    .navbar
+    {
+        height: 160px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+
+    .navContainer
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0px;
+    }
+
+    .navContainer .logo
+    {
+        margin: 10px 16%;
+    }
+
+    .navmenu
+    {
+        height: 20px;
+        margin:0px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navmenu .list
+    {
+        height: 20px;
+        /* margin: 0px 18%; */
+        display: flex;
+        flex-direction: row;
+    }
+
+    .list ul
+    {
+        margin-left: 32%;
+        margin: 0px 100%;
+    }
+    .list ul li 
+    {
+        line-height: 0px;
+    }
+
+    .searchbar
+    {
+        width: 100%;
+        display: flex;
+        margin: 5px 9%;
+    }
+    .searchbar i
+    {
+        padding-top: 22px;
+    }
+
+    .navicon
+    {
+        visibility: hidden;
+    }
+
+    /* socials */
+
+    .social
+    {
+        visibility: hidden;
+    }
+
+    /* poster img */
+
+    .poster
+    {
+        height: 500px;
+        width: 100%;
+    }
+
+    .posterimg
+    {
+        height: 500px;
+        width: 100%;
+    }
+
+    .posterimg img
+    {
+        width: 100%;
+        height: 480px;
+        margin-top: 20px;
+    }
+
+    .postertext
+    {
+        height: 30px;
+        width: 60%;
+    }
+    .postertext p
+    {
+        font-size: 30px;
+    }
+
+    .shopNow
+    {
+        position: relative;
+        left: 38%;
+    }
+
+    .shopNow:hover input
+{
+    background-color: white;
+    color: black;
+}
+
+    .shopNow input
+    {
+        width: 80%;
+        height: 45px;
+        font-size: 18px;
+    }
+
+    .shopNow i
+    {
+        font-size: 30px;
+        position: relative;
+        right: 10%;
+    }
+
+/* new arrival beg */
+
+    .mainbox
+    {
+        height: 300px;
+        width: 100%;
+    }
+
+    .boxcontainer
+    {
+        height: 300px;
+        width: 100%;
+    }
+
+    .box1 h1
+    {
+        font-size: 20px;
+    }
+
+    .box1 input
+    {
+        width: 50%;
+        height: 45px;
+        font-size: 18px;
+        margin-left: 25%;
+    }
+    .box1
+    {
+        height: 300px;
+        width: 50%;
+    }
+
+    .box2
+    {
+        height: 300px;
+        width: 50%;
+    }
+
+    .box2 img
+    {
+        height: 300px;
+        width: 100%;
+    }
+
+    /* 3 image */
+
+    .maincontainer
+    {
+        height: 1000px;
+        width: 100%;
+    }
+
+    .imgGallery
+    {
+        height: 1000px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pic1
+    {
+        width: 100%;
+        height: 400px;
+    }
+
+    .pic1 img
+    {
+        width: 100%;
+        height: 400px;
+    }
+    .pic2
+    {
+        width: 100%;
+        height: 400px;
+    }
+
+    .pic2 img
+    {
+        width: 100%;
+        height: 400px;
+    }
+    .pic3
+    {
+        width: 100%;
+        height: 400px;
+    }
+
+    .pic3 img
+    {
+        width: 100%;
+        height: 400px;
+    }
+
+    /* sale product poster */
+
+    .bagPoster
+    {
+        height: 900px;
+    }
+
+    .text
+    {
+        margin-top: 0%;
+        height: 160px;
+        padding-top: 30px;
+    }
+    .text h3
+    {
+        font-size: 18px;
+    }
+
+    .mainbox1
+    {
+        height: 750px;
+        width: 100%;
+    }
+
+    .imgContainer
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   }
+
+   .bag1
+   {
+    width: 50%;
+   }
+
+   .bag1 h2
+   {
+    font-size: 16px;
+    padding-top: 5px;
+   }
+
+   .bag1 h3
+   {
+    font-size: 12px;
+    padding-top: 5px;
+   }
+   
+   .bag2
+   {
+    width: 50%;
+   }
+
+   .bag2 h2
+   {
+    font-size: 16px;
+    padding-top: 5px;
+   }
+
+   .bag2 h3
+   {
+    font-size: 12px;
+    padding-top: 2px;
+    padding-bottom: 6px;
+   }
+   
+   .bag3
+   {
+    width: 50%;
+   }
+
+   .bag3 h2
+   {
+    font-size: 16px;
+    padding-top: 5px;
+   }
+
+   .bag3 h3
+   {
+    font-size: 12px;
+    padding-top: 2px;
+   }
+
+   /* about us */
+
+   .aboutUs
+   {
+    height: 500px;
+    width: 100%;
+   }
+
+   .abtContainer
+   {
+    height: 500px;
+   }
+
+   .aboutInfo
+   {
+    height: 500px;
+   }
+
+   .aboutInfo h1
+   {
+    font-size: 20px;
+   }
+
+   .aboutInfo p
+   {
+    font-size: 16px;
+    letter-spacing: 1px;
+   }
+
+   /* contact */
+
+   .contact
+   {
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+   }
+
+   .contactForm
+   {
+    height: 500px;
+    width: 70%;
+    margin: 50px 0px 0px 50px ;
+   }
+
+   .firstName label
+   {
+    font-size: 16px;
+   }
+   .firstName input
+   {
+    width: 100%;
+    margin-top: 3px;
+    }
+
+    .lastName label
+    {
+     font-size: 16px;
+    }
+    .lastName input
+    {
+     width: 100%;
+     margin-top: 3px;
+     }
+
+    .contactForm .email label
+{
+    font-size: 16px;
+}
+.contactForm .email input
+{
+    width: 100%;
+      margin-top: 3px;
+}
+
+     .sub label
+     {
+      font-size: 16px;
+     }
+     .sub input
+     {
+      width: 100%;
+      margin-top: 3px;
+      }
+
+      .message label
+     {
+      font-size: 16px;
+     }
+     .message input
+     {
+      width: 100%;
+      margin-top: 3px;
+      }
+
+      .send input 
+      {
+        margin-right: 0%;
+        width: 55%;
+      }
+
+      .contactInfo h1
+      {
+        font-size: 40px;
+        margin-bottom: 5%;
+      }
+
+      .contactInfo p
+      {
+        font-size: 15px;
+      }
+
+      /* mail list */
+
+      .mailList
+      {
+        margin-top: 0%;
+        height: 500px;
+      }
+
+      .mailList h1
+      {
+        font-size: 40px;
+      }
+
+      .mailList h3
+      {
+        font-size: 18px;
+      }
+
+        .mailList .email label
+      {
+       position: relative;
+       top: 0%;
+      }
+
+    .subscribe input
+{
+    position: relative;
+    top: 10%;
+}
+    /* footer */
+
+    .footer
+    {
+        height: 200px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .footer h2
+    {
+        font-size: 12px;
+        margin: 20px;
+        padding-left: 20%;
+    }
+
+    .footer ul
+    {
+        font-size: 10px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer li
+    {
+        padding-left: 10px;
+        padding-top: 5px;
+        text-align: center;
+    }
+
+    .footer li a
+    {
+        font-size: 14px;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px)
+{
+
+    /* nav */
+
+    .navbar
+    {
+        height: 160px;
+    }
+
+   .navContainer
+   {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    line-height: 0px;
+   }
+
+   .navContainer .logo{
+    position: relative;
+    top: 5%;
+    left: 35%;
+   }
+
+   .navmenu{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 25%;
+   }
+
+   .navicon
+   {
+    display: none;
+   }
+
+   .searchbar
+   {
+      width: 40%;
+      margin-left: 5%;
+   }
+
+   .postertext
+   {
+       height: 30px;
+       width: 60%;
+       margin-bottom: 5%;
+   }
+   .postertext p
+   {
+       font-size: 50px;
+   }
+
+   .shopNow
+   {
+       position: relative;
+       left: 38%;
+   }
+
+   .shopNow:hover input
+{
+   background-color: white;
+   color: black;
+}
+
+   .shopNow input
+   {
+       width: 80%;
+       height: 45px;
+       font-size: 18px;
+   }
+
+   .shopNow i
+   {
+       font-size: 30px;
+       position: relative;
+       right: 10%;
+   }
+
+   /* new arrival beg */
+
+   .mainbox
+   {
+       height: 400px;
+       width: 100%;
+   }
+
+   .boxcontainer
+   {
+       height: 400px;
+       width: 100%;
+   }
+
+   .box1 h1
+   {
+       font-size: 40px;
+   }
+
+   .box1 input
+   {
+       width: 50%;
+       height: 45px;
+       font-size: 18px;
+       margin-left: 25%;
+   }
+   .box1
+   {
+       height: 300px;
+       width: 50%;
+   }
+
+   .box2
+   {
+       height: 400px;
+       width: 50%;
+   }
+
+   .box2 img
+   {
+       height: 400px;
+       width: 100%;
+   }
+
+    
+   /* 3 images */
+
+   .maincontainer
+   {
+    height: 400px;
+    width: 100%;
+   }
+
+   .imgGallery
+   {
+       height: 350px;
+       width: 100%;
+       display: flex;
+   }
+
+   .pic1{
+    height: 350px;
+   }
+
+   .pic1 img{
+    height: 350px;
+   }
+
+   .pic2{
+    height: 350px;
+   }
+
+   .pic2 img{
+    height: 350px;
+   }
+
+   .pic3{
+    height: 350px;
+   }
+
+   .pic3 img{
+    height: 350px;
+   }
+   .aboutUs
+   {
+    height: 450px;
+    width: 100%;
+   }
+
+   .abtContainer
+   {
+    height: 450px;
+   }
+
+   .aboutInfo
+   {
+    height: 450px;
+   }
+   
+   .aboutInfo h1
+   {
+    font-size: 30px;
+   }
+
+   .aboutInfo p
+   {
+    font-size: 17px;
+    letter-spacing: 1px;
+   }
+
+   .contactInfo
+   {
+    margin-left: 5%;
+   }
+   .contactInfo h1
+   {
+     font-size: 40px;
+     margin-bottom: 5%;
+   }
+
+   .contactInfo p
+   {
+     font-size: 15px;
+   }
+
+
+     /* footer */
+
+     .footer
+     {
+         height: 200px;
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         margin: auto;
+     }
+ 
+     .footer h2
+     {
+         font-size: 18px;
+         margin: 25px 0px 10px 30px;
+         padding-left: 20%;
+     }
+ 
+     .footer ul
+     {
+         font-size: 10px;
+         margin: 0px;
+         display: flex;
+         flex-direction: column;
+     }
+ 
+     .footer li
+     {
+         padding-left: 10px;
+         padding-top: 5px;
+         text-align: center;
+     }
+ 
+     .footer li a
+     {
+         font-size: 14px;
+     }
+}
